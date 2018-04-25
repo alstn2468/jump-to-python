@@ -74,3 +74,11 @@ a # ()
 a = { 'name' : 'pey', 'phone' : '0119993323', 'birth' : '1118' }
 a.get('name') # 'pey'
 a.get('phone') # '0119993323'
+a.get('nokey') # None
+# a['nokey'] > ERROR
+a.get('foo', 'bar') # default값인 'bar' 반환
+
+# Key가 딕셔너리 안에 있는지 조사하기
+a = { 'name' : 'pey', 'phone' : '0119993323', 'birth' : '1118' }
+'name' in a # True
+'email' in a # False
