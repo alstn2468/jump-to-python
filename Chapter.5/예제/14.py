@@ -1,4 +1,4 @@
-# 클래스의 상속
+# 매서드 오버라이딩
 class HousePark :
     lastname = "박"
     def __init__(self, name) :
@@ -9,6 +9,8 @@ class HousePark :
 
 class HouseKim(HousePark) :
     lastname = '김'
+    def travel(self, where, day) :
+        print('%s, %s여행 %s일 가네.' % (self.fullname, where, day))
 
 juliet = HouseKim('줄리엣')
-juliet.travel('독도')
+juliet.travel('독도', 3)
