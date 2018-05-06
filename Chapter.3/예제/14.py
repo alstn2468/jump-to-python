@@ -1,5 +1,4 @@
 # 리스트 안에 for문 포함하기
-
 a = [1, 2, 3, 4]
 result = []
 for num in a :

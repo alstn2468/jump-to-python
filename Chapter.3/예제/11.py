@@ -1,5 +1,4 @@
 # for와 함께 자주 사용하는 함수 range함수
-
 a = range(10)
 a # range(0, 10)
 a = range(1, 11)

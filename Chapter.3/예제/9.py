@@ -1,6 +1,5 @@
 # for문의 응용
 # marks1.py
-
 marks = [90, 25, 67, 45, 80]
 number = 0
 for mark in marks :

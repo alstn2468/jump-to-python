@@ -1,6 +1,5 @@
 # 함수 안에서 선언된 변수의 효력 범위
 # vartest.py
-
 a = 1
 def vartest(a) :
     a = a + 1
@@ -20,7 +19,6 @@ def vartest(hello) :
 # 변수 a는 선언되지 않았다.
 
 # 함수 안에서 함수 밖의 변수를 변경하는 방법
-
 # retrun 이용하기
 # vartest_return.py
 a = 1

@@ -1,5 +1,4 @@
 # 'Pithon'이라는 문자열을 'Python'으로 바꾸기
-
 a = "Pithon"
 a[1] # 'i'
 a[1] = 'y'

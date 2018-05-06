@@ -1,6 +1,5 @@
 # break문을 이용해 자판기 작동 과정 만들기
 # coffee.py
-
 coffee = 10
 while True :
     money = int(input('돈을 넣어주세요 : '))

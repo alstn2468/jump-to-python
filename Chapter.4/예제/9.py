@@ -1,5 +1,4 @@
 # 프로그램 외부에 저장된 파일을 읽는 여러 가지 방법
-
 # readline() 함수 이용하기
 # readline.py
 f = open('C:/Python/새파일.txt', 'r')

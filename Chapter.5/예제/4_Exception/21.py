@@ -1,5 +1,4 @@
 # 예외 처리
-
 # try, except 문
 try :
     4 / 0

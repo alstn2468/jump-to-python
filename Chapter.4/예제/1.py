@@ -1,5 +1,4 @@
 # 함수
-
 # 파이썬 함수의 구조
 def sum(a, b) :
     return a + b

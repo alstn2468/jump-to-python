@@ -1,5 +1,4 @@
 # while문 강제로 빠져나가기
-
 coffee = 10
 money = 300
 while money :

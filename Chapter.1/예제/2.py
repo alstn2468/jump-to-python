@@ -1,5 +1,4 @@
 # simple.py
-
 languages = ['python', 'perl', 'c', 'java']
 
 for lang in languages :

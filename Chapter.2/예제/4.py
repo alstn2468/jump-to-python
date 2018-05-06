@@ -1,5 +1,4 @@
 # 고급 문자열 포매팅
-
 # 숫자 바로 대입하기
 "I eat {0} apples".format(3) # 'I eat 3 apples'
 

@@ -1,5 +1,4 @@
 # While문
-
 # while문의 기본 구조
 treeHit = 0
 while treeHit < 10 :
