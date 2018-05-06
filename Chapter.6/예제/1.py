@@ -7,4 +7,4 @@ def GuGu(n) :
         i = i + 1
     return result
 
-print(GuGu(2))
+print(GuGu(2)) # [2, 4, 6, 8, 10, 12, 14, 16, 18]
