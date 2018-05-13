@@ -5,6 +5,7 @@
 입력 예시 : aaabbcccccca
 출력 예시 : a3b2c6a1
 '''
+
 def zip_string(string) :
 	_char = ""
 	count = 0

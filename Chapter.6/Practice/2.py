@@ -18,3 +18,21 @@
 입력 예시 : 012322456789
 출력 예시 : false
 '''
+
+def check_num(string) :
+	result = []
+
+	for num in string :
+		if num not in result :
+			result.append(num)
+
+		else :
+			return False
+
+	return len(result) == 10
+
+print(check_num('0123456789')) # True
+print(check_num('01234')) # False
+print(check_num('01234567890')) # False
+print(check_num('6789012345')) # True
+print(check_num('012322456789')) # True

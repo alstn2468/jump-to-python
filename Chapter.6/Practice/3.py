@@ -21,3 +21,25 @@ K -.- 	  X -..-
 L .-.. 	  Y -.--
 M -- 	  Z --..
 '''
+
+morse_dic = {
+'.-'   : 'A', '-...' : 'B', '-.-.' : 'C', '-..'  : 'D', '.'    : 'E',
+'..-.' : 'F', '--.'  : 'G', '....' : 'H', '..'   : 'I', '.---' : 'J',
+'-.-'  : 'K', '.-..' : 'L', '--'   : 'M', '-.'   : 'N', '---'  : 'O',
+'.--.' : 'P', '--.-' : 'Q', '.-.'  : 'R', '...'  : 'S', '-'    : 'T',
+'..-'  : 'U', '...-' : 'V', '.--'  : 'W', '-..-' : 'X', '-.--' : 'Y',
+'--..' : 'Z'
+}
+
+def morse_to_string(morse) :
+	result = []
+
+	for word in morse.split('  ') :
+		for char in word.split(' ') :
+			result.append(morse_dic[char])
+
+		result.append(' ')
+
+	return ''.join(result)
+
+print(morse_to_string('.... .  ... .-.. . . .--. ...  . .- .-. .-.. -.--')) # 'HE SLEEPS EARLY'
