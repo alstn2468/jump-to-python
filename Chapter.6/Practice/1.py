@@ -13,10 +13,12 @@ def zip_string(string) :
 	for char in string :
 		if char != _char :
 			_char = char
+			
 			if count :
 				result += str(count)
 			result += char
 			count = 1
+
 		else :
 			count += 1
 
