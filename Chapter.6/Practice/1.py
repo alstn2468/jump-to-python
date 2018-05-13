@@ -5,3 +5,24 @@
 입력 예시 : aaabbcccccca
 출력 예시 : a3b2c6a1
 '''
+def zip_string(input) :
+	_c = ""
+	count = 0
+	result = ""
+
+	for c in input :
+		if c != _c :
+			_c = c
+			if count :
+				result += str(count)
+			result += c
+			count = 1
+		else :
+			count += 1
+
+	if count :
+		result += str(count)
+
+	return result
+
+print(zip_string('aaabbcccccca')) # a3b2c6a1	
