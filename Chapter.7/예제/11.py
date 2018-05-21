@@ -1,5 +1,4 @@
 # MULTILINE, M
-
 import re
 
 p = re.compile('^python\s\w+')
