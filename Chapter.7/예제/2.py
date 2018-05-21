@@ -1,5 +1,4 @@
 # 정규 표현식 사용 후
-
 import re
 
 data = '''
