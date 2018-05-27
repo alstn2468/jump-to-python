@@ -1,4 +1,4 @@
-from xml.etree.ElementTree import Element, SubElement, dump
+from xml.etree.ElementTree import ElementTree, Element, SubElement, dump
 
 note = Element('note')
 note.attrib['date'] = '20120104'
@@ -36,6 +36,8 @@ def indent(elem, level = 0) :
 
 indent(note)
 dump(note)
+
+ElementTree(note).write('note.xml')
 
 '''
 <note date="20120104">
